@@ -13,13 +13,12 @@ body {
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --text-decoration-color: #ff7700;
 }
 
 .container {
-    margin: 0 auto;
     padding: 0 30px;
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 .fh {
@@ -257,4 +256,10 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.contact-main-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
