@@ -258,3 +258,9 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.contact-main-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
